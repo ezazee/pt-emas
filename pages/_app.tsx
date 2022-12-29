@@ -28,6 +28,8 @@ const navItems: NavItems = [
   { title: 'Kontak Kami', href: '/sign-up', outlined: true },
 ];
 
+const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -51,6 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Providers>
         <Modals />
         <Navbar items={navItems} />
+         <Component {...pageProps} />
         <WaveCta />
         <Footer />
       </Providers>
