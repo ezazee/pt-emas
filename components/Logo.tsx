@@ -2,7 +2,7 @@ export default function Logo({ ...rest }) {
   return (
     
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="155" height="50" viewBox="0 0 2712 686" enable-background="new 0 0 2712 686" xmlSpace="preserve">
+	 width="155" height="50" viewBox="0 0 2712 686" xmlSpace="preserve">
 <path fill="#FFFFFF" opacity="1.000000" stroke="none" 
 	d="
 M362.000000,1.000002 
