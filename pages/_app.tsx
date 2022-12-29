@@ -28,8 +28,6 @@ const navItems: NavItems = [
   { title: 'Kontak Kami', href: '/sign-up', outlined: true },
 ];
 
-const TinaCMS = dynamic(() => import('tinacms'), { ssr: false });
-
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
